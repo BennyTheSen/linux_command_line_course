@@ -1,0 +1,8 @@
+Task 1 (1 min):
+
+   ls /etc > file1.txt
+   ls /run > file2.txt
+
+Task 2 (5min):
+   cat file1.txt | tee unsorted.txt  | sort -r > reversed.txt | cat file2.txt | tee -a unsorted.txt | sort -r >> reversed.txt
+   better: cat file1.txt file2.txt | tee unsorted.txt | sort -r > reversed.txt
