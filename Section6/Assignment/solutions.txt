@@ -1,0 +1,6 @@
+Task 1:
+   see hungry.sh
+
+Task 2:
+   add crontab with crontab -e
+   * * * * * bash ~/hungry.sh
